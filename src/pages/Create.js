@@ -60,18 +60,24 @@ export default function Create(edit) {
       if (
         item.startsWith("#") &&
         customCategories.indexOf(item.split("#")[1]) == -1 &&
-        item.split("#")[1] !== ""
+        item.split("#")[1] != ""
       ) {
         let customCategory = item.split("#")[1];
         customCategories.push(customCategory);
         newCategories.push(customCategory)
         setCategory(newCategories);
         setCustomCategory(customCategories);
+        
+      }
+      if (item.split("#")[1] == "" ) {
+        console.log(customCategories)
+        setCategory(newCategories);
+        if (customCategories.length == 1){
+      setCustomCategory([]);
+        }
+
+      }
      
-      }
-      if (item.split("#")[1] === "") {
-        setCustomCategory(customCategories);
-      }
     });
   }, [details, setCustomCategory, setCategory]);
 

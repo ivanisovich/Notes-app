@@ -2,20 +2,9 @@
   "notes": [
     {
       "title": "qwe",
-      "details": "#qwe #qwe",
-      "category": [
-        "qwe"
-      ],
+      "details": "sdf",
+      "category": [],
       "id": 1
-    },
-    {
-      "title": "qwe",
-      "details": "#qwe #ewq",
-      "category": [
-        "qwe",
-        "ewq"
-      ],
-      "id": 2
     }
   ]
 }
