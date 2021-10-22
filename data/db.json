@@ -2,17 +2,18 @@
   "notes": [
     {
       "title": "qwe",
-      "details": "money ",
+      "details": "#qwe #qwe",
       "category": [
-        "money"
+        "qwe"
       ],
       "id": 1
     },
     {
-      "title": "xcfv",
-      "details": "#qwe",
+      "title": "qwe",
+      "details": "#qwe #ewq",
       "category": [
-        "qwe"
+        "qwe",
+        "ewq"
       ],
       "id": 2
     }

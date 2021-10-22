@@ -55,6 +55,7 @@ export default function Create(edit) {
   }, []);
   useEffect(() => {
     let customCategories = [];
+    let newCategories = []
     details.split(" ").map((item) => {
       if (
         item.startsWith("#") &&
@@ -63,10 +64,10 @@ export default function Create(edit) {
       ) {
         let customCategory = item.split("#")[1];
         customCategories.push(customCategory);
-        setCategory(customCategories);
+        newCategories.push(customCategory)
+        setCategory(newCategories);
         setCustomCategory(customCategories);
-
-        console.log(customCategories);
+     
       }
       if (item.split("#")[1] === "") {
         setCustomCategory(customCategories);

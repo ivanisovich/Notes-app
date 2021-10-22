@@ -66,16 +66,14 @@ export default function NoteCard({ note, handleDelete }) {
   const [isEditing, setIsEditing] = useState(false);
   const classes = useStyles(note);
   const history = useHistory();
-  const handleSubmitEdit = (value) => {};
-  const showEditMenu = () => {
-    setIsEditing(true);
-  };
+
 
   return (
     <Card elevation={2} style={styledCard}>
       <List style={flexCategoriesContainer}>
         {note.category.map((item, index) => {
           return (
+            
             <ListItem key={index} style={listItem}>
               {item}
             </ListItem>
@@ -111,7 +109,6 @@ export default function NoteCard({ note, handleDelete }) {
       <CardContent>
         {isEditing ? (
           <TextField
-            onChange={(e) => handleSubmitEdit(e.target.value)}
             className={classes.field}
             label="Note Title"
             color="primary"
