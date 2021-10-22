@@ -1,0 +1,20 @@
+{
+  "notes": [
+    {
+      "title": "qwe",
+      "details": "money ",
+      "category": [
+        "money"
+      ],
+      "id": 1
+    },
+    {
+      "title": "xcfv",
+      "details": "#qwe",
+      "category": [
+        "qwe"
+      ],
+      "id": 2
+    }
+  ]
+}

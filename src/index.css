@@ -1,0 +1,18 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.highlight {
+  color: greenyellow;
+}
+
+.MuiOutlinedInput-inputMultiline {
+  opacity: 0;
+}
+
+.result__wrapper span {
+  font-family: "Roboto" !important;
+  padding-right: 5px;
+}
