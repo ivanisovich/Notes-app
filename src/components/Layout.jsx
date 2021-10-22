@@ -81,8 +81,7 @@ export default function Layout({ children }) {
             {" "}
             Today is {format(new Date(), "do MMMM Y")}
           </Typography>
-          <Typography> Palash </Typography>
-          <Avatar className={classes.avatar} src="/Capture2.png" />
+       
         </Toolbar>
       </AppBar>
 
